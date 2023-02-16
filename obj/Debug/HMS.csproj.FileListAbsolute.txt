@@ -1,0 +1,55 @@
+C:\Users\Time Computer\source\repos\HMS\HMS\bin\Debug\HMS.exe.config
+C:\Users\Time Computer\source\repos\HMS\HMS\bin\Debug\HMS.exe
+C:\Users\Time Computer\source\repos\HMS\HMS\bin\Debug\HMS.pdb
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.csproj.AssemblyReference.cache
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.csproj.SuggestedBindingRedirects.cache
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Forms.Assign_Room.resources
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Forms.Edit_Staff.resources
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Forms.Edit_Student.resources
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Forms.Edit_Visitor.resources
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Forms.Login.resources
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Forms.Main.resources
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Forms.Register_Staff.resources
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Forms.Register_Student.resources
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Forms.Room.resources
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Forms.Search_Student.resources
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Forms.Search_Visitor.resources
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Forms.Visitor_Entry.resources
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Templete.resources
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Properties.Resources.resources
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.csproj.GenerateResource.cache
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.csproj.CoreCompileInputs.cache
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.exe
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.pdb
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Forms.User_Setting.resources
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Forms.Edit_Room.resources
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Forms.Search_Room.resources
+C:\Users\Time Computer\source\repos\HMS\HMS\obj\Debug\HMS.Forms.SearchStaff.resources
+D:\repos\HMS\HMS\bin\Debug\HMS.exe.config
+D:\repos\HMS\HMS\bin\Debug\HMS.exe
+D:\repos\HMS\HMS\bin\Debug\HMS.pdb
+D:\repos\HMS\HMS\obj\Debug\HMS.csproj.AssemblyReference.cache
+D:\repos\HMS\HMS\obj\Debug\HMS.csproj.SuggestedBindingRedirects.cache
+D:\repos\HMS\HMS\obj\Debug\HMS.Forms.Assign_Room.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.Forms.Edit_Room.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.Forms.Edit_Staff.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.Forms.Edit_Student.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.Forms.Login.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.Forms.Main.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.Forms.Register_Staff.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.Forms.Register_Student.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.Forms.Room.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.Forms.Search_Room.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.Forms.Search_Student.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.Forms.Search_Visitor.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.Forms.SearchStaff.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.Forms.User_Setting.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.Forms.Visitor_Entry.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.Templete.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.Properties.Resources.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.csproj.GenerateResource.cache
+D:\repos\HMS\HMS\obj\Debug\HMS.csproj.CoreCompileInputs.cache
+D:\repos\HMS\HMS\obj\Debug\HMS.exe
+D:\repos\HMS\HMS\obj\Debug\HMS.pdb
+D:\repos\HMS\HMS\obj\Debug\HMS.Forms.About_Us.resources
+D:\repos\HMS\HMS\obj\Debug\HMS.Forms.Edit_Visitorr.resources

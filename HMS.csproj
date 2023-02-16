@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0EBD4116-646C-4CEA-9C0A-1B062E2685F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HMS</RootNamespace>
+    <AssemblyName>HMS</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\About Us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\About Us.Designer.cs">
+      <DependentUpon>About Us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Assign Room.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Assign Room.Designer.cs">
+      <DependentUpon>Assign Room.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Edit Room.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Edit Room.Designer.cs">
+      <DependentUpon>Edit Room.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Edit Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Edit Staff.Designer.cs">
+      <DependentUpon>Edit Staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Edit Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Edit Student.Designer.cs">
+      <DependentUpon>Edit Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Edit_Visitorr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Edit_Visitorr.Designer.cs">
+      <DependentUpon>Edit_Visitorr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Register Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Register Staff.Designer.cs">
+      <DependentUpon>Register Staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Register Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Register Student.Designer.cs">
+      <DependentUpon>Register Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Room.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Room.Designer.cs">
+      <DependentUpon>Room.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Search Room.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Search Room.Designer.cs">
+      <DependentUpon>Search Room.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Search Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Search Student.Designer.cs">
+      <DependentUpon>Search Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Search Visitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Search Visitor.Designer.cs">
+      <DependentUpon>Search Visitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SearchStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SearchStaff.Designer.cs">
+      <DependentUpon>SearchStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\User Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\User Setting.Designer.cs">
+      <DependentUpon>User Setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Visitor Entry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Visitor Entry.Designer.cs">
+      <DependentUpon>Visitor Entry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\Cleaning.cs" />
+    <Compile Include="Helper\Helper.cs" />
+    <Compile Include="Helper\Message.cs" />
+    <Compile Include="Helper\Templete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helper\Templete.Designer.cs">
+      <DependentUpon>Templete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HMSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\About Us.resx">
+      <DependentUpon>About Us.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Assign Room.resx">
+      <DependentUpon>Assign Room.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Edit Room.resx">
+      <DependentUpon>Edit Room.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Edit Staff.resx">
+      <DependentUpon>Edit Staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Edit Student.resx">
+      <DependentUpon>Edit Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Edit_Visitorr.resx">
+      <DependentUpon>Edit_Visitorr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Register Staff.resx">
+      <DependentUpon>Register Staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Register Student.resx">
+      <DependentUpon>Register Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Room.resx">
+      <DependentUpon>Room.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Search Room.resx">
+      <DependentUpon>Search Room.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Search Student.resx">
+      <DependentUpon>Search Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Search Visitor.resx">
+      <DependentUpon>Search Visitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SearchStaff.resx">
+      <DependentUpon>SearchStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\User Setting.resx">
+      <DependentUpon>User Setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Visitor Entry.resx">
+      <DependentUpon>Visitor Entry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helper\Templete.resx">
+      <DependentUpon>Templete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="HMSDataSet.xsc">
+      <DependentUpon>HMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSDataSet.xss">
+      <DependentUpon>HMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet1.xsc">
+      <DependentUpon>HMSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSDataSet1.xss">
+      <DependentUpon>HMSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet10.xsc">
+      <DependentUpon>HMSDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSDataSet10.xss">
+      <DependentUpon>HMSDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet11.xsc">
+      <DependentUpon>HMSDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSDataSet11.xss">
+      <DependentUpon>HMSDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet12.xsc">
+      <DependentUpon>HMSDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSDataSet12.xss">
+      <DependentUpon>HMSDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet13.xsc">
+      <DependentUpon>HMSDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSDataSet13.xss">
+      <DependentUpon>HMSDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet14.xsc">
+      <DependentUpon>HMSDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSDataSet14.xss">
+      <DependentUpon>HMSDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet2.xsc">
+      <DependentUpon>HMSDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSDataSet2.xss">
+      <DependentUpon>HMSDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet3.xsc">
+      <DependentUpon>HMSDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSDataSet3.xss">
+      <DependentUpon>HMSDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet4.xsc">
+      <DependentUpon>HMSDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSDataSet4.xss">
+      <DependentUpon>HMSDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet5.xsc">
+      <DependentUpon>HMSDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSDataSet5.xss">
+      <DependentUpon>HMSDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet6.xsc">
+      <DependentUpon>HMSDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSDataSet6.xss">
+      <DependentUpon>HMSDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet7.xsc">
+      <DependentUpon>HMSDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSDataSet7.xss">
+      <DependentUpon>HMSDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet8.xsc">
+      <DependentUpon>HMSDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSDataSet8.xss">
+      <DependentUpon>HMSDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet9.xsc">
+      <DependentUpon>HMSDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="HMSDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSDataSet9.xss">
+      <DependentUpon>HMSDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
